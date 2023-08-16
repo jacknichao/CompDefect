@@ -1,0 +1,30 @@
+train_filename: 'data_all/train_data.csv'
+dev_filename: 'data_all/val_data.csv'
+type2label: 'data/type2label_all.json'
+epochs: 50
+do_train: true
+do_eval: true
+model_type: 'roberta'
+# model_name_or_path: 'roberta-base'
+# tokenizer_name: 'roberta-base'
+# config_name: 'roberta-base'
+# model_type: 'bert'
+# model_name_or_path: 'bert-base-uncased'
+# tokenizer_name: 'bert-base-uncased'
+# config_name: 'bert-base-uncased'
+#bert-base-uncased
+model_name_or_path: 'microsoft/codebert-base'
+tokenizer_name: 'microsoft/codebert-base'
+config_name: 'microsoft/codebert-base'
+max_source_length: 448
+max_target_length: 448
+data_flow_length: 64
+beam_size: 10
+gradient_accumulation_steps: 4
+train_batch_size: 32
+eval_batch_size: 32
+learning_rate: 1.0e-4
+num_train_epochs: 50
+use_awl: false
+num_labels: 17
+no_dfg: false

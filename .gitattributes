@@ -1,0 +1,11 @@
+Data/type_map.md filter=lfs diff=lfs merge=lfs -text
+Data/val_data.csv filter=lfs diff=lfs merge=lfs -text
+Data/test_data.csv filter=lfs diff=lfs merge=lfs -text
+Data/train_data.csv filter=lfs diff=lfs merge=lfs -text
+Data/type2label_all.json filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/Codit-Model.zip filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/Edits.zip filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/MSR2021-ProgramRepair-main.zip filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/NPR4J.zip filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/Recoder-Preprocess.zip filter=lfs diff=lfs merge=lfs -text
+Models/RQ3/SequenceR.zip filter=lfs diff=lfs merge=lfs -text
